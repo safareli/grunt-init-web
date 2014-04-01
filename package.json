@@ -1,5 +1,5 @@
 {
-  "name": "webletton",
+  "name": "grunt-init-web",
   "version": "0.0.0",
   "description": "a sample boilerplate for web development",
   "scripts": {

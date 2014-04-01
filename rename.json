@@ -1,0 +1,5 @@
+{
+  "source/scripts/main.coffee": "{%= __scripts_dir %}/main.coffee",
+  "source/styles/style.styl": "{%= __styles_dir %}/style.styl",
+  "source/index.jade": "{%= source_dir %}/index.jade"
+}
