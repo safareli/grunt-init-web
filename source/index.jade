@@ -1,0 +1,46 @@
+doctype html
+html(lang="en")
+  head
+    title WebLeTTon - A sample boilerplate for web development
+    script(src='/scripts/main.js')
+    link(rel="stylesheet" href="/styles/style.css")
+  body
+    .wrapper
+      h1#webletton
+        a(name='webletton', href='#webletton') WebLeTTon
+      blockquote
+        p a sample boilerplate for web development
+      h2#uses
+        a(name='uses', href='#uses') uses
+      ul
+        li coffeescript
+        li coffeelint
+        li jade
+        li stylus with nib
+        li uglify
+        li connect server
+        li livereload
+        li watch and newer
+      h1#grunt-comands
+        a(name='grunt-comands', href='#grunt-comands') grunt comands
+      ul
+        li
+          | default
+          ul
+            li build
+            li dev
+        li
+          | build
+          ul
+            li clean public folder;
+            li lint, compile and uglify scripts;
+            li compile jade and stylus;
+        li
+          | dev
+          ul
+            li start server;
+            li use livereload;
+        li
+          | check
+          ul
+            li run only server;

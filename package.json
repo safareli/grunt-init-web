@@ -1,0 +1,34 @@
+{
+  "name": "webletton",
+  "version": "0.0.0",
+  "description": "a sample boilerplate for web development",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Safareli/webletton.git"
+  },
+  "author": {
+    "name" : "Irakli Safareli",
+    "email" : "i.safareli@gmail.com",
+    "url" : "http://safareli.tumblr.com/"
+  },
+  "license": "BSD",
+  "devDependencies": {
+    "stylus": "~0.42.3",
+    "nib": "~1.0.2",
+    "jade": "~1.3.0",
+    "grunt": "~0.4.4",
+    "load-grunt-tasks": "~0.2.1",
+    "grunt-newer": "~0.7.0",
+    "grunt-coffeelint": "0.0.8",
+    "grunt-contrib-stylus": "~0.13.2",
+    "grunt-contrib-coffee": "~0.10.1",
+    "grunt-contrib-jade": "~0.11.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-connect": "~0.7.1",
+    "grunt-contrib-uglify": "~0.3.2",
+    "grunt-contrib-clean": "~0.5.0"
+  }
+}
