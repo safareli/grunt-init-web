@@ -13,6 +13,13 @@ Once grunt-init is installed, place this template in your `~/.grunt-init/` direc
 git clone https://github.com/Safareli/grunt-init-web.git ~/.grunt-init/web
 ```
 
+To update this template remove old version from `~/.grunt-init/` directory and clone new one
+```
+rm -rf ~/.grunt-init/web && git clone https://github.com/Safareli/grunt-init-web.git ~/.grunt-init/web && rm -rf ~/.grunt-init/web/.git
+```
+
+
+
 _(Windows users, see [the documentation][grunt-init] for the correct destination directory path)_
 
 ## Usage
